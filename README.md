@@ -1,0 +1,1 @@
+# TemplateAspNetCoreWithEFCore7
