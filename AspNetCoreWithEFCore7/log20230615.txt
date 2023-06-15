@@ -1,0 +1,163 @@
+2023-06-15 17:22:20.418 +03:00 [INF] Starting web application
+2023-06-15 17:22:20.506 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-15 17:22:20.536 +03:00 [DBG] Hosting starting
+2023-06-15 17:22:20.565 +03:00 [INF] Now listening on: http://localhost:5090
+2023-06-15 17:22:20.566 +03:00 [DBG] Loaded hosting startup assembly AspNetCoreWithEFCore7
+2023-06-15 17:22:20.567 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-15 17:22:20.567 +03:00 [INF] Hosting environment: Development
+2023-06-15 17:22:20.568 +03:00 [INF] Content root path: C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7
+2023-06-15 17:22:20.569 +03:00 [DBG] Hosting started
+2023-06-15 17:22:20.944 +03:00 [DBG] Connection id "0HMRDLFN68NA9" received FIN.
+2023-06-15 17:22:20.949 +03:00 [DBG] Connection id "0HMRDLFN68NA9" accepted.
+2023-06-15 17:22:20.950 +03:00 [DBG] Connection id "0HMRDLFN68NA9" started.
+2023-06-15 17:22:20.958 +03:00 [DBG] Connection id "0HMRDLFN68NA9" sending FIN because: "The client closed the connection."
+2023-06-15 17:22:20.960 +03:00 [DBG] Connection id "0HMRDLFN68NA9" disconnecting.
+2023-06-15 17:22:20.963 +03:00 [DBG] Connection id "0HMRDLFN68NA9" stopped.
+2023-06-15 17:22:21.068 +03:00 [DBG] Connection id "0HMRDLFN68NAA" accepted.
+2023-06-15 17:22:21.069 +03:00 [DBG] Connection id "0HMRDLFN68NAA" started.
+2023-06-15 17:22:21.070 +03:00 [DBG] Connection id "0HMRDLFN68NAB" accepted.
+2023-06-15 17:22:21.071 +03:00 [DBG] Connection id "0HMRDLFN68NAB" started.
+2023-06-15 17:22:21.089 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger/index.html - -
+2023-06-15 17:22:21.090 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-15 17:22:21.105 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-06-15 17:22:21.106 +03:00 [DBG] Request did not match any endpoints
+2023-06-15 17:22:21.179 +03:00 [DBG] Connection id "0HMRDLFN68NAA" completed keep alive response.
+2023-06-15 17:22:21.181 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger/index.html - - - 200 - text/html;charset=utf-8 93.9785ms
+2023-06-15 17:22:21.325 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger/v1/swagger.json - -
+2023-06-15 17:22:21.327 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-15 17:22:21.327 +03:00 [DBG] Request did not match any endpoints
+2023-06-15 17:22:21.409 +03:00 [DBG] Connection id "0HMRDLFN68NAA" completed keep alive response.
+2023-06-15 17:22:21.411 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 85.4761ms
+2023-06-15 17:22:30.859 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/WeatherForecast?a=123 application/json 33
+2023-06-15 17:22:30.863 +03:00 [DBG] 1 candidate(s) found for the request path '/WeatherForecast'
+2023-06-15 17:22:30.865 +03:00 [DBG] Endpoint 'AspNetCoreWithEFCore7.Controllers.WeatherForecastController.Post (AspNetCoreWithEFCore7)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast'
+2023-06-15 17:22:30.867 +03:00 [DBG] Request matched endpoint 'AspNetCoreWithEFCore7.Controllers.WeatherForecastController.Post (AspNetCoreWithEFCore7)'
+2023-06-15 17:22:30.869 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-15 17:22:30.872 +03:00 [INF] Executing endpoint 'AspNetCoreWithEFCore7.Controllers.WeatherForecastController.Post (AspNetCoreWithEFCore7)'
+2023-06-15 17:22:30.883 +03:00 [INF] Route matched with {action = "Post", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[AspNetCoreWithEFCore7.WeatherForecast] Post(Int32, AspNetCoreWithEFCore7.Controllers.B) on controller AspNetCoreWithEFCore7.Controllers.WeatherForecastController (AspNetCoreWithEFCore7).
+2023-06-15 17:22:30.886 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-15 17:22:30.887 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-15 17:22:30.888 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-15 17:22:30.890 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-15 17:22:30.891 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-06-15 17:22:30.893 +03:00 [DBG] Executing controller factory for controller AspNetCoreWithEFCore7.Controllers.WeatherForecastController (AspNetCoreWithEFCore7)
+2023-06-15 17:22:30.894 +03:00 [DBG] Executed controller factory for controller AspNetCoreWithEFCore7.Controllers.WeatherForecastController (AspNetCoreWithEFCore7)
+2023-06-15 17:22:30.900 +03:00 [DBG] Attempting to bind parameter 'a' of type 'System.Int32' ...
+2023-06-15 17:22:30.902 +03:00 [DBG] Attempting to bind parameter 'a' of type 'System.Int32' using the name 'a' in request data ...
+2023-06-15 17:22:30.905 +03:00 [DBG] Done attempting to bind parameter 'a' of type 'System.Int32'.
+2023-06-15 17:22:30.906 +03:00 [DBG] Done attempting to bind parameter 'a' of type 'System.Int32'.
+2023-06-15 17:22:30.907 +03:00 [DBG] Attempting to validate the bound parameter 'a' of type 'System.Int32' ...
+2023-06-15 17:22:30.908 +03:00 [DBG] Done attempting to validate the bound parameter 'a' of type 'System.Int32'.
+2023-06-15 17:22:30.910 +03:00 [DBG] Attempting to bind parameter 'b' of type 'AspNetCoreWithEFCore7.Controllers.B' ...
+2023-06-15 17:22:30.912 +03:00 [DBG] Attempting to bind parameter 'b' of type 'AspNetCoreWithEFCore7.Controllers.B' using the name '' in request data ...
+2023-06-15 17:22:30.913 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-15 17:22:30.918 +03:00 [DBG] Connection id "0HMRDLFN68NAA", Request id "0HMRDLFN68NAA:00000003": started reading request body.
+2023-06-15 17:22:30.919 +03:00 [DBG] Connection id "0HMRDLFN68NAA", Request id "0HMRDLFN68NAA:00000003": done reading request body.
+2023-06-15 17:22:30.926 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'AspNetCoreWithEFCore7.Controllers.B'
+2023-06-15 17:22:30.927 +03:00 [DBG] Done attempting to bind parameter 'b' of type 'AspNetCoreWithEFCore7.Controllers.B'.
+2023-06-15 17:22:30.928 +03:00 [DBG] Done attempting to bind parameter 'b' of type 'AspNetCoreWithEFCore7.Controllers.B'.
+2023-06-15 17:22:30.929 +03:00 [DBG] Attempting to validate the bound parameter 'b' of type 'AspNetCoreWithEFCore7.Controllers.B' ...
+2023-06-15 17:22:30.935 +03:00 [DBG] Done attempting to validate the bound parameter 'b' of type 'AspNetCoreWithEFCore7.Controllers.B'.
+2023-06-15 17:22:30.938 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-06-15 17:22:30.942 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-06-15 17:22:30.944 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-06-15 17:22:30.945 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-06-15 17:22:30.945 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-06-15 17:22:30.947 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-15 17:22:30.949 +03:00 [INF] Executing ObjectResult, writing value of type 'AspNetCoreWithEFCore7.WeatherForecast[]'.
+2023-06-15 17:22:30.961 +03:00 [INF] Executed action AspNetCoreWithEFCore7.Controllers.WeatherForecastController.Post (AspNetCoreWithEFCore7) in 65.2521ms
+2023-06-15 17:22:30.962 +03:00 [INF] Executed endpoint 'AspNetCoreWithEFCore7.Controllers.WeatherForecastController.Post (AspNetCoreWithEFCore7)'
+2023-06-15 17:22:30.965 +03:00 [DBG] HTTP POST /WeatherForecast responded 200 in 92.5035 ms
+2023-06-15 17:22:30.966 +03:00 [DBG] Connection id "0HMRDLFN68NAA" completed keep alive response.
+2023-06-15 17:22:30.967 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/WeatherForecast?a=123 application/json 33 - 200 - application/json;+charset=utf-8 107.3801ms
+2023-06-15 17:23:25.263 +03:00 [DBG] Connection id "0HMRDLFN68NAB" received FIN.
+2023-06-15 17:23:25.265 +03:00 [DBG] Connection id "0HMRDLFN68NAB" sending FIN because: "The client closed the connection."
+2023-06-15 17:23:25.266 +03:00 [DBG] Connection id "0HMRDLFN68NAB" disconnecting.
+2023-06-15 17:23:25.267 +03:00 [DBG] Connection id "0HMRDLFN68NAB" stopped.
+2023-06-15 17:24:41.647 +03:00 [DBG] Connection id "0HMRDLFN68NAA" disconnecting.
+2023-06-15 17:24:41.648 +03:00 [DBG] Connection id "0HMRDLFN68NAA" stopped.
+2023-06-15 17:24:41.649 +03:00 [DBG] Connection id "0HMRDLFN68NAA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-15 17:33:17.340 +03:00 [INF] Application is shutting down...
+2023-06-15 17:33:17.341 +03:00 [DBG] Hosting stopping
+2023-06-15 17:33:17.346 +03:00 [DBG] Hosting stopped
+2023-06-15 17:33:23.140 +03:00 [INF] Starting web application
+2023-06-15 17:33:23.228 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-06-15 17:33:23.258 +03:00 [DBG] Hosting starting
+2023-06-15 17:33:23.289 +03:00 [INF] Now listening on: http://localhost:5090
+2023-06-15 17:33:23.290 +03:00 [DBG] Loaded hosting startup assembly AspNetCoreWithEFCore7
+2023-06-15 17:33:23.291 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-15 17:33:23.292 +03:00 [INF] Hosting environment: Development
+2023-06-15 17:33:23.292 +03:00 [INF] Content root path: C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7
+2023-06-15 17:33:23.293 +03:00 [DBG] Hosting started
+2023-06-15 17:33:23.689 +03:00 [DBG] Connection id "0HMRDLLSMMDQ9" received FIN.
+2023-06-15 17:33:23.693 +03:00 [DBG] Connection id "0HMRDLLSMMDQ9" accepted.
+2023-06-15 17:33:23.694 +03:00 [DBG] Connection id "0HMRDLLSMMDQ9" started.
+2023-06-15 17:33:23.701 +03:00 [DBG] Connection id "0HMRDLLSMMDQ9" sending FIN because: "The client closed the connection."
+2023-06-15 17:33:23.704 +03:00 [DBG] Connection id "0HMRDLLSMMDQ9" disconnecting.
+2023-06-15 17:33:23.707 +03:00 [DBG] Connection id "0HMRDLLSMMDQ9" stopped.
+2023-06-15 17:33:23.784 +03:00 [DBG] Connection id "0HMRDLLSMMDQA" accepted.
+2023-06-15 17:33:23.785 +03:00 [DBG] Connection id "0HMRDLLSMMDQA" started.
+2023-06-15 17:33:23.785 +03:00 [DBG] Connection id "0HMRDLLSMMDQB" accepted.
+2023-06-15 17:33:23.789 +03:00 [DBG] Connection id "0HMRDLLSMMDQB" started.
+2023-06-15 17:33:23.808 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger/index.html - -
+2023-06-15 17:33:23.811 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-06-15 17:33:23.825 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-06-15 17:33:23.826 +03:00 [DBG] Request did not match any endpoints
+2023-06-15 17:33:23.900 +03:00 [DBG] Connection id "0HMRDLLSMMDQA" completed keep alive response.
+2023-06-15 17:33:23.902 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger/index.html - - - 200 - text/html;charset=utf-8 95.0514ms
+2023-06-15 17:33:23.987 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5090/swagger/v1/swagger.json - -
+2023-06-15 17:33:23.988 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-15 17:33:23.990 +03:00 [DBG] Request did not match any endpoints
+2023-06-15 17:33:24.075 +03:00 [DBG] Connection id "0HMRDLLSMMDQA" completed keep alive response.
+2023-06-15 17:33:24.077 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5090/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 90.3362ms
+2023-06-15 17:33:28.377 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5090/WeatherForecast?a=123 application/json 33
+2023-06-15 17:33:28.380 +03:00 [DBG] 1 candidate(s) found for the request path '/WeatherForecast'
+2023-06-15 17:33:28.383 +03:00 [DBG] Endpoint 'AspNetCoreWithEFCore7.Controllers.WeatherForecastController.Post (AspNetCoreWithEFCore7)' with route pattern 'WeatherForecast' is valid for the request path '/WeatherForecast'
+2023-06-15 17:33:28.384 +03:00 [DBG] Request matched endpoint 'AspNetCoreWithEFCore7.Controllers.WeatherForecastController.Post (AspNetCoreWithEFCore7)'
+2023-06-15 17:33:28.386 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-06-15 17:33:28.388 +03:00 [INF] Executing endpoint 'AspNetCoreWithEFCore7.Controllers.WeatherForecastController.Post (AspNetCoreWithEFCore7)'
+2023-06-15 17:33:28.399 +03:00 [INF] Route matched with {action = "Post", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[AspNetCoreWithEFCore7.WeatherForecast] Post(Int32, AspNetCoreWithEFCore7.Controllers.B) on controller AspNetCoreWithEFCore7.Controllers.WeatherForecastController (AspNetCoreWithEFCore7).
+2023-06-15 17:33:28.402 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-06-15 17:33:28.403 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-06-15 17:33:28.403 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-06-15 17:33:28.405 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-06-15 17:33:28.405 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-06-15 17:33:28.409 +03:00 [DBG] Executing controller factory for controller AspNetCoreWithEFCore7.Controllers.WeatherForecastController (AspNetCoreWithEFCore7)
+2023-06-15 17:33:28.410 +03:00 [DBG] Executed controller factory for controller AspNetCoreWithEFCore7.Controllers.WeatherForecastController (AspNetCoreWithEFCore7)
+2023-06-15 17:33:28.415 +03:00 [DBG] Attempting to bind parameter 'a' of type 'System.Int32' ...
+2023-06-15 17:33:28.417 +03:00 [DBG] Attempting to bind parameter 'a' of type 'System.Int32' using the name 'a' in request data ...
+2023-06-15 17:33:28.419 +03:00 [DBG] Done attempting to bind parameter 'a' of type 'System.Int32'.
+2023-06-15 17:33:28.420 +03:00 [DBG] Done attempting to bind parameter 'a' of type 'System.Int32'.
+2023-06-15 17:33:28.421 +03:00 [DBG] Attempting to validate the bound parameter 'a' of type 'System.Int32' ...
+2023-06-15 17:33:28.423 +03:00 [DBG] Done attempting to validate the bound parameter 'a' of type 'System.Int32'.
+2023-06-15 17:33:28.425 +03:00 [DBG] Attempting to bind parameter 'b' of type 'AspNetCoreWithEFCore7.Controllers.B' ...
+2023-06-15 17:33:28.426 +03:00 [DBG] Attempting to bind parameter 'b' of type 'AspNetCoreWithEFCore7.Controllers.B' using the name '' in request data ...
+2023-06-15 17:33:28.427 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-06-15 17:33:28.434 +03:00 [DBG] Connection id "0HMRDLLSMMDQA", Request id "0HMRDLLSMMDQA:00000003": started reading request body.
+2023-06-15 17:33:28.434 +03:00 [DBG] Connection id "0HMRDLLSMMDQA", Request id "0HMRDLLSMMDQA:00000003": done reading request body.
+2023-06-15 17:33:28.442 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'AspNetCoreWithEFCore7.Controllers.B'
+2023-06-15 17:33:28.443 +03:00 [DBG] Done attempting to bind parameter 'b' of type 'AspNetCoreWithEFCore7.Controllers.B'.
+2023-06-15 17:33:28.444 +03:00 [DBG] Done attempting to bind parameter 'b' of type 'AspNetCoreWithEFCore7.Controllers.B'.
+2023-06-15 17:33:28.444 +03:00 [DBG] Attempting to validate the bound parameter 'b' of type 'AspNetCoreWithEFCore7.Controllers.B' ...
+2023-06-15 17:33:28.450 +03:00 [DBG] Done attempting to validate the bound parameter 'b' of type 'AspNetCoreWithEFCore7.Controllers.B'.
+2023-06-15 17:33:28.452 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-06-15 17:33:28.457 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-06-15 17:33:28.458 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-06-15 17:33:28.459 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-06-15 17:33:28.459 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-06-15 17:33:28.461 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-15 17:33:28.462 +03:00 [INF] Executing ObjectResult, writing value of type 'AspNetCoreWithEFCore7.WeatherForecast[]'.
+2023-06-15 17:33:28.472 +03:00 [INF] Executed action AspNetCoreWithEFCore7.Controllers.WeatherForecastController.Post (AspNetCoreWithEFCore7) in 62.3543ms
+2023-06-15 17:33:28.474 +03:00 [INF] Executed endpoint 'AspNetCoreWithEFCore7.Controllers.WeatherForecastController.Post (AspNetCoreWithEFCore7)'
+2023-06-15 17:33:28.477 +03:00 [INF] HTTP POST /WeatherForecast Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpRequestStream 200
+2023-06-15 17:33:28.478 +03:00 [DBG] Connection id "0HMRDLLSMMDQA" completed keep alive response.
+2023-06-15 17:33:28.479 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5090/WeatherForecast?a=123 application/json 33 - 200 - application/json;+charset=utf-8 101.5686ms
+2023-06-15 17:34:25.457 +03:00 [INF] Application is shutting down...
+2023-06-15 17:34:25.458 +03:00 [DBG] Hosting stopping
+2023-06-15 17:34:25.463 +03:00 [DBG] Connection id "0HMRDLLSMMDQB" disconnecting.
+2023-06-15 17:34:25.463 +03:00 [DBG] Connection id "0HMRDLLSMMDQA" disconnecting.
+2023-06-15 17:34:25.465 +03:00 [DBG] Connection id "0HMRDLLSMMDQA" stopped.
+2023-06-15 17:34:25.465 +03:00 [DBG] Connection id "0HMRDLLSMMDQB" stopped.
+2023-06-15 17:34:25.465 +03:00 [DBG] Connection id "0HMRDLLSMMDQA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-15 17:34:25.466 +03:00 [DBG] Connection id "0HMRDLLSMMDQB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-15 17:34:25.469 +03:00 [DBG] Hosting stopped

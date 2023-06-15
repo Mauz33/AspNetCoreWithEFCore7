@@ -29,4 +29,20 @@ public class WeatherForecastController : ControllerBase
             })
             .ToArray();
     }
+    
+    [HttpPost(Name = "Create")]
+    public IEnumerable<WeatherForecast> Post(int a, [FromBody] B b)
+    {
+        var d = HttpContext;
+        return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            {
+                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
+                TemperatureC = Random.Shared.Next(-20, 55),
+                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+            })
+            .ToArray();
+    }
 }
+
+
+public record B(int c, string d);

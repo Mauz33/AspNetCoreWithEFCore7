@@ -41,3 +41,15 @@ C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7\bin\Deb
 C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7\bin\Debug\net7.0\Serilog.dll
+C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7\bin\Debug\net7.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7\bin\Debug\net7.0\Serilog.Sinks.PostgreSQL.dll
+C:\Users\Maxim\RiderProjects\AspNetCoreWithEFCore7\AspNetCoreWithEFCore7\bin\Debug\net7.0\Newtonsoft.Json.dll
