@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5apxoWorsF4mS7gqGEuTayAu648GevCbLBlk8CLhWP0=",
+  "Source": "AspNetCoreWithEFCore7",
+  "BasePath": "_content/AspNetCoreWithEFCore7",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
